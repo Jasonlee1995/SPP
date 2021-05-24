@@ -21,5 +21,12 @@ Docker Image
   * No learning rate scheduler for convenience
 
 
-## 2. Reference
-- Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition [[paper]](https://arxiv.org/abs/1406.4729)
+## 2. Result Comparison on CIFAR-10
+|Source|Score|Detail|
+|:-:|:-:|:-|
+|Current Repo|88.56|without SPP|
+|Current Repo|89.7|with SPP (4, 3, 2, 1)|
+
+
+## 3. Reference
+- Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition [[paper]](https://arxiv.org/pdf/1406.4729.pdf)
